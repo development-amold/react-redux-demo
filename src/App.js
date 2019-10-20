@@ -8,7 +8,7 @@ import Counter from './Counter';
 import Counter2 from './Counter2';
 import Counter3 from './Counter3';
 import CounterApi from './CounterApi';
-import CounterHistory from './CounterHistory';
+import SaveCounter from './SaveCounter';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
       <p>---COUNTER3---</p>
       <Counter3 />
       <hr></hr>
-      <CounterHistory />
+      <SaveCounter />
       <hr></hr>
       <CounterApi />
     </div>
@@ -35,3 +35,4 @@ function App() {
 }
 
 export default App;
+
