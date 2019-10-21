@@ -21,6 +21,8 @@ const reducer = (state = initialState, action) => {
       let savedCounters = state.savedCountersArr.slice();
       savedCounters.push(state.counter);
       return {...state, savedCountersArr: savedCounters};
+    case actionsConst.EMPLOYEE_API:
+      return{...state, employees: action.payload.httpResp.data, counter: action.payload.cnt}  
     default:
       return state;  
   }

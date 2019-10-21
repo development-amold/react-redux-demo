@@ -3,7 +3,8 @@ const initialState = {
   name: null,
   text_input_name: null,
   counterHistory:[],
-  savedCountersArr: []
+  savedCountersArr: [],
+  employees: null
 }
 
 export default initialState;
